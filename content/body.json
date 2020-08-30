@@ -1,0 +1,264 @@
+{"array":[
+  {
+    "title": "investin",
+    "picture_url": "https://res.cloudinary.com/drqh3tjwn/image/upload/w_488,q_auto,f_auto/v1589640762/protfolio/mocks/investim_s5fgci.jpeg",
+    "preview_url": "http://investin.co.il",
+    "source_url": "https://docs.google.com/presentation/d/1lE_jRk4GufnFm1G6SEaaTTK-FGJUn1NQ6tc7DebQKEw/edit?usp=sharing",
+    "one_liner": "Web platform for connecting entrepreneurs and investors in the usa real estate market.",
+    "description": "Platform for connecting entrepreneurs and investors in the usa real estate market. The platforms offers information about investments,entrepreneurs,locations and it presents articles about safe investments.",
+    "tech_used": [
+      "nuxtjs",
+      "vuejs",
+      "vuetify",
+      "firebase",
+      "strapi",
+      "mongodb",
+      "pm2",
+      "nginx",
+      "ubuntu"
+    ],
+    "sections": [{
+        "title": "My Role",
+        "text": [
+          "Decide any technology related decision from architecture to e2e tests",
+          "Implement adobe xd files to into modular architecture, work closely with a designer",
+          "Explain any technology decision made to product manager and the entrepreneurs"
+        ]
+      },
+      {
+        "title": "project difficulties",
+        "text": [
+          "Context switching",
+          "Working with vps provider and configuring dns and domains",
+          "Heavy content",
+          "Frequent changes to data structures and content editing solution",
+          "Metrics gathering from front,back,host"
+        ]
+      },
+      {
+        "title": "my solutions",
+        "text": [
+          "I used js for the frontend and the backend to reduce the context switches",
+          "Learnt nginx and pm2 and sharpen my ubuntu skills",
+          "Async loading and server side rendering",
+          "I chose a cms that is connected to the noSQL key value database, a thing witch gave the ability to change the “schemas” of the data as we grew and by non technological people",
+          "After checking several providers (elastic-Kibana,Grafana,Honeybadger,etc..) i chose to use DataDog for its convenience and the variety of metrics in one tool."
+        ]
+      }
+    ],
+    "notable_features": [
+      "Single script deploy.",
+      "Projects search.",
+      "Home page async loading.",
+      "Entrepreneur page.",
+      "Own profile and activity-log, likes, messages etc.."
+    ]
+  },
+ 
+  
+  
+  {
+    "title": "Daniela Krol portfolio",
+    "picture_url": "https://res.cloudinary.com/drqh3tjwn/image/upload/w_488,q_auto,f_auto/v1589641756/protfolio/mocks/danithefishfish_cjrurw.jpeg",
+    "preview_url": "https://danielakrol.com",
+    "source_url": "https://github.com/lermanori/protfolio-2020",
+    "one_liner": "Portfolio system for the artist Daniela Krol.",
+    "description": "Portfolio system for the artist Daniela Krol. The system contains a static generated website,backend for crud operations on the data, and an admin interface that is enforced by jwt authentication and validation.",
+    "tech_used": [
+      "vuejs",
+      "nuxtjs",
+      "nestjs",
+      "passportjs",
+      "tailwindcss",
+      "heroku",
+      "cloudinary"
+    ],
+    "sections": [{
+        "title": "my role",
+        "text": [
+          "Design a system that suits the following needs pixel perfect implementation of adobe xd prototype",
+          "Content is changed biweekly",
+          "Fast loading times",
+          "Access control",
+          "Build an admin interface with login mechanism",
+          "Develop and deploy all assets"
+        ]
+      },
+      {
+        "title": "project difficulties",
+        "text": [
+          "Pixel perfect implementation",
+          "Fast loading times"
+        ]
+      },
+      {
+        "title": "my solutions",
+        "text": [
+          "Built an atomic design style guide using customized tailwind configuration",
+          "Statically generated site is saving all the network calls that are blocking the sites content rendering, the content on the site is changing in a reasonable amount of time that generation times does not overflowing the build server."
+        ]
+      }
+    ],
+    "notable_features": [
+      "Atomic design system.",
+      "100 score  in google audit.",
+      "Visual design of the site.",
+      "Contact system.",
+      "Static hosting is free on github servers, api servers run on free heroku dynos.cost is reduced to just the domain."
+    ]
+  },
+  {
+    "title": "search component",
+    "picture_url": "https://res.cloudinary.com/drqh3tjwn/image/upload/w_488,q_auto,f_auto/v1589640752/protfolio/mocks/search_hvdc2t.jpeg",
+    "preview_url": "https://lermanori.github.io/od-components/#/",
+    "source_url": "https://github.com/lermanori/od-components",
+    "one_liner": "Reusable search component deployed to npm @lermanori/od-vue-components.",
+    "description": "Reusable search component system built with the technology of vue.js, extracting the logic and representation of search through api, can be connected to every rest api and supports jwt,built with rollup deployed to npm as a package and comes with responsive example and deployed to github pages connected to the SMITHSONIAN museums api.",
+    "tech_used": [
+      "vuejs","vuetify"
+    ],
+    "sections": [{
+        "title": "my role",
+        "text": [
+          "Designing the component logic",
+          "Designing the components examples",
+          "Implementation and deployment"
+        ]
+      },
+      {
+        "title": "project difficulties",
+        "text": [
+          "Making a reusable component that can fit any json and rest api",
+          "Making an extendable component"
+        ]
+      },
+      {
+        "title": "my solutions",
+        "text": [
+          "Passing props to the components 1.a base url as string 2. an adapter function that get search value and returns the end of the rest query and then we concatenate the result to the base url and make the request",
+          "Using the scoped slots feature of vue.js we can pass the result of the query to a sub component that do the actual presentation, project comes with two concrete implementations of such sub components."
+        ]
+      }
+    ],
+    "notable_features": [
+      "Built in debounce.",
+      "Vue-cli->Rollup->Npm deployment.",
+      "The example website."
+    ]
+  },
+  {
+    "title": "marvelous wonder",
+    "picture_url": "https://res.cloudinary.com/drqh3tjwn/image/upload/w_488,q_auto,f_auto/v1589640741/protfolio/mocks/peletaor_ix1k1q.jpeg",
+    "preview_url": "https://lermanori.github.io/utp/#/",
+    "source_url": "https://github.com/lermanori/utp",
+    "one_liner": "The project is an electronic version of a physical book made about geological effects.",
+    "description": "The project is an electronic version of a physical book made about geological effects. It is a collaboration with the designer Rino Avidar. In this project we tried to approach a new way to enrich the usual ebook experience.",
+    "tech_used": [
+      "vuejs",
+      "vuetify"
+    ],
+    "sections": [{
+        "title": "my role",
+        "text": [
+          "Implementing the artist vision in a low-cost environment",
+          "Designing a complex component that will have 4 features",
+          "Generating the entire website from a static generated json"
+        ]
+      },
+      {
+        "title": "project difficulties",
+        "text": [
+          "Collaborating with a non tech designer",
+          "Toggling between two images with animation",
+          "Speed dial fixed menu"
+        ]
+      },
+      {
+        "title": "my solutions",
+        "text": [
+          "We designed together one fully featured component and agreed on json format and naming conventions for the data and file structure, then the designer filled the json file while i implemented the rest of the site and then we combined our work with rendering the component through iterating the file",
+          "learning more about vue reactivity system (framework specific code at https://gist.github.com/lermanori/cc104dbb0f9f2892067f41a5aff95a60)"
+        ]
+      }
+    ],
+    "notable_features": [
+      "The implementation of pixel perfect views on screens below 1900px while keeping the artist view.",
+      "The not usual approach to displaying data.",
+      "The feature component is filling the site with data while being the only component.",
+      "Speed dial fixed menu."
+    ]
+  },
+  {
+    "title": "ue4 project",
+    "picture_url": "https://res.cloudinary.com/drqh3tjwn/image/upload/w_488,q_auto,f_auto/v1589320170/protfolio/herotest_gqqnq2.jpeg",
+    "preview_url": "https://www.youtube.com/watch?v=YEArESXvVl8",
+    "source_url": "none",
+    "one_liner": "Hero test is a 3d platformer game built with unreal engine 4.",
+    "description": "Welcome to hero’s city! Here you can use your special abilities in order to complete your mission like a real hero and save the city. For each mission you have limited time. In order to finish your mission you have to use your special abilities, and pick up items to help you along the way.",
+    "tech_used": [
+      "ue4"
+    ],
+    "sections": [{
+        "title": "My Role",
+        "text": [
+          "Create a three level interactive game with 3d engine with consideration to the different features of ue4"
+        ]
+      },
+      {
+        "title": "Project Difficulties",
+        "text": [
+          "Creating a storyline that is also interactive",
+          "Creating a timer for the game that well be reusable between levels",
+          "Creating cooldown ability system"
+        ]
+      },
+      {
+        "title": "my solutions",
+        "text": [
+          "Research and three tries of storylines that didn't came through",
+          "Connecting a timer to the game logic (a singleton object) in order to make it reusable."
+        ]
+      }
+    ],
+    "notable_features": [
+      "Boss - https://blueprintue.com/blueprint/0ulp-l58/", "Exploding_rock - https://blueprintue.com/blueprint/ihp-gvat/", "Player - https://blueprintue.com/blueprint/vbmrylmy/", "Hud-https://blueprintue.com/blueprint/4-e5eqhj/", "Level 2-https://blueprintue.com/blueprint/wcf5dmw5."
+    ]
+  },
+  {
+    "title": "flappy bird-arduino version",
+    "picture_url": "https://res.cloudinary.com/drqh3tjwn/image/upload/w_488,q_auto,f_auto/v1589448256/protfolio/arduino_pzxnev.jpeg",
+    "preview_url": "https://res.cloudinary.com/drqh3tjwn/video/upload/v1589447916/protfolio/extras/arduino/arduino-project_o2drad.mp4",
+    "source_url": "https://gist.githubusercontent.com/lermanori/1e625dd2ea544c3bb26f4cfe66a3a90a/raw/f2b8ada5b4978ae8c6818044aff1032fecd814e3/arduino_project",
+    "one_liner": "Arduino project - User interface for a classic game.",
+    "description": "Alternative user interface for a classic game.flap your wings to fly.",
+    "tech_used": [
+      "arduino",
+      "p5js",
+      "c++"
+    ],
+    "sections": [{
+        "title": "specification",
+        "text": [
+          "1 x arduino uno",
+          "1 x arduino leonardo",
+          "2 x acceleration sensors",
+          "4 x leds",
+          "1 x radio chip - receiver 1 x radio chip - emitter"
+        ]
+      },
+      {
+        "title": "implementation",
+        "text": [
+          "Arduino uno is connected to the wings with acceleration sensors, if the acceleration sensors are sensing down acceleration below certain level it uses the emitter radio chip to signal the  receiver radio chip connected to the leonardo who is connected to the operating pc and simulates pressing the spacebar hit on the computer."
+        ]
+      }
+    ],
+    "notable_features": [
+      "Whole the code for system was written from scratch.",
+      "The idea and the production is all self made.",
+      "The whole final product fit in a small backpack and weights below 1kg the console box is under 5 scm."
+    ]
+  }
+  
+]
+}
